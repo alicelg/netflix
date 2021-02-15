@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="netflix.css">
+
+    <!-- favicon -->
+</head>
+
+<body>
+    <!-- header cabeceras -->
+    <div class="login__header">
+        <a href="#" class="logo-netflix"> Netflix </a>
+    </div>
+
+    <!-- esto hace parte de lo interno de la onepage -->
+    <div class="login__body">
+        <div class="login__form-container">
+
+            <h1> Iniciar sesión </h1>
+            <form class="login__form">
+
+                <label>
+                    <span> Correo </span>
+                    <input type="email" required="required" name="user" class="input--text">
+                </label>
+
+                <label>
+                    <span>Contraseña</span>
+                    <input type="password" required="required" name="pass" class="input--text" minlength="6">
+                    <!-- minlength es la cantidad de datos que recibe -->
+                </label>
+
+                <div class="text--align-right">
+                    <a href="https://www.netflix.com/es/LoginHelp">¿Has olvidado tu correo o contraseña?</a>
+                </div>
+
+                <br>
+                <!-- sirven para dar espacio -->
+
+                <div>
+                    <label>
+                        <input type="checkbox" name="rememberMe" checked="checked" class="block--display-inline">
+                        <span>Recuerdame en este dispositivo</span>
+                        <a href="#" class="login--help-icon">?</a>
+                    </label>
+                </div>
+
+                <button class="button_log-in"> Iniciar sesión</button>
+
+                <button class="button_log-in--fb"> Iniciar sesión con Facebook</button>
+                
+                <p> ¿Aún no tienes Netflix? </p>
+                <a href="#">Subcribete</a>
+            </form>
+        </div>
+    </div>
+
+    <div class="login__footer">
+        <p> ¿Preguntas? Llama al  12345678 </p>
+
+        <ul>
+            <li> 
+                <a href="#" class="text--color-light-grey">   
+                Términos de la tarjeta regalo</a> 
+            </li>
+
+            <li> 
+                <a href="#" class="text--color-light-grey">   
+                Términos de uso</a> 
+            </li>
+
+            <li> 
+                <a href="#" class="text--color-light-grey">   
+                Declaración de privacidad</a> 
+            </li>
+        </ul>
+
+        <div>
+            <span class="img-world"></span>
+
+            <select class="select--language">
+                <option value="option">Español</option>
+                <option value="option">Inglés</option>
+                <option value="option">Mandarin</option>
+                <option value="option">Francés</option>
+                <option value="option">Italiano</option>
+                <option value="option">Alemán</option>
+            </select>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
