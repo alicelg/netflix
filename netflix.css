@@ -1,0 +1,43 @@
+/* estos son los estilos generales para todo */
+*{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: normal;
+   -webkit-font-smoothing: antialiased;
+   text-decoration: none;
+   color: black; 
+   margin: 0; 
+   padding: 0; 
+   background-color:  rgb(227, 225, 225);
+}
+
+body{ font-size: 1em; }
+
+/* este es el titulo h1 */
+h1{ 
+    font-size: 2em; 
+    margin-bottom: 20px;
+}
+
+/* estos son los enlaces */
+a{ color: green}
+
+a:hover , a:active { 
+    text-decoration: underline;
+}
+
+/* esto aparece en la parte superior de los espacios a rellenar de un formulario */
+label { 
+    display: block;
+    margin-bottom: 20px;
+}
+
+input, button {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    background: white;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+/* nos quedamos en la linea 37 del css */
