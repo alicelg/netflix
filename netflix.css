@@ -40,4 +40,36 @@ input, button {
     box-sizing: border-box;
 }
 
-/* nos quedamos en la linea 37 del css */
+/* los focus se usan para dar enfasis a un objeto en particular */
+
+input:focus{
+    border-color: gray;
+    outline: 0;
+}
+
+button{
+    /* tamaño */
+    font-size: 1.125em;
+    color: rgb(250, 246, 246);
+    height: 50px;
+    margin-bottom: 20px;
+    border: none; 
+    /* para que aparezca la manito de dar click */
+    cursor: pointer;
+}
+
+/* Estilos a todas las clases */
+
+.login__header{
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom,
+    rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100%);
+}
+
+.logo-netflix{ 
+    display: block;
+    text-indent: -9999px;
+    height: 100px;
+    background: url("imagenes/logo-netflix.png") 20px/200px no-repeat;
+}
