@@ -73,3 +73,25 @@ button{
     height: 100px;
     background: url("imagenes/logo-netflix.png") 20px/200px no-repeat;
 }
+
+.login__body{
+    height: 700px;
+    padding-top: 90px;
+    background: black url("imagenes/fondo.png") no-repeat;
+    background-size: cover;
+}
+
+.login__form-container{
+    width: 380px;
+    margin: auto;
+    padding: 40px;
+}
+
+.button_log-in {
+    background-color: red;
+}
+
+.login__footer {
+    padding: 30px 40px;
+    border-top: 1px solid rgb(189, 186, 186);
+}
